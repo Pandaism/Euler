@@ -1,7 +1,6 @@
 package com.pandaism.euler;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 
 /**
  * @author Pandaism
