@@ -17,7 +17,7 @@ public class Main {
             if(list.size() == 10001) break;
         }
 
-        System.out.println(list);
+        System.out.println(list.get(10000));
     }
 
     private static boolean isPrime(double num) {
