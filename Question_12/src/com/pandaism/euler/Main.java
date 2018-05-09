@@ -12,7 +12,6 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        //System.out.println(divisorSize(76576500));
         long start = System.currentTimeMillis();
 
         for(long l = 1; l < Long.MAX_VALUE; l++) {
@@ -58,6 +57,7 @@ public class Main {
     private static long triangleNum(long num) {
         return (num * (num + 1)) / 2;
     }
+
 //    private static long triangleNum(long num) {
 //        if(num <= 1) {
 //            return 1;
