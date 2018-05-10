@@ -1,0 +1,8 @@
+The square of a number is n * n.
+Using this knowledge the square root of a number is n.
+Hence:
+    The divisor of 16: 1, 2, 4, 8, 16
+    The divisor of Math.sqrt(16) or 4: 1, 2, 4
+
+The divisor of 4 is approximately 1/2 of the divisor of 16. Using this it can be used to approximate this divisor
+of a large triangle number.
