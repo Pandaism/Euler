@@ -1,0 +1,7 @@
+Not know what lattice is I researched and figured out a lattice can basically be a matrix where
+matrix[i][j] = matrix[i - 1][j] + matrix[i][j - 1] where the first row and column is set to 1
+
+After experimenting with a 3x3 square and 4x4 square with answer of 20 and 70 respectively. The size of the
+matrix is figure to be squareSize + 1.
+
+Then I proceed to populate and print out the last index of the matrix;
