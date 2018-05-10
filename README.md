@@ -3,4 +3,4 @@ Modules for the currently completely Euler Problems from ProjectEuler
 
 I do logic and pseudocode for the problems on paper first before attempting to putting it into proper code.
 
-Completed 13/625
+Completed 14/626
