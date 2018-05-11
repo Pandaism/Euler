@@ -1,0 +1,20 @@
+A. Not knowing where to start beside:
+1. The triangle can possibly be a matrix
+2. I can brute force (not advised) or use a binary search tree
+3. Question 67 will be the same question but longer so I should find a quicker method now
+4. The result for the highest iteration would be the result
+     if: (left node from root) + root > (right node from root) + root
+     then: (left node from root) += root
+     else: (right node from root) += root
+
+B. Beside the above, I did some research to figure out which was the best method to approach the problem
+I found:
+1. It was advise that starting from the bottom would result in a quicker solution
+2. It can indeed be stored in a 15x15 matrix
+3. It can also be solved as a binary search tree
+
+C. To attempt to solve the problem I needed to:
+1. Parse the triangle into a matrix
+2. Read the matrix in reverse row order
+3. To save computation time I need to store the information based from A.4 into the matrix
+4. The largest sum will be the largest value in row 0 of the matrix
