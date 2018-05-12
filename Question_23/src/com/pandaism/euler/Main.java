@@ -7,15 +7,13 @@ import java.util.ArrayList;
  * @date 5/12/2018 : 11:20 AM
  *
  * Refactor for more efficient algorithm
- * @date 5/12/2018 : 4:54
+ * @date 5/12/2018 : 4:54 PM Will revisit
  */
 public class Main {
     private static ArrayList<Integer> abundantNums = new ArrayList<>();
     private static ArrayList<Integer> sumsOfAbundantNums = new ArrayList<>();
 
     public static void main(String[] args) {
-
-        long start = System.currentTimeMillis();
         for(int i = 1; i <= 28123; i++) {
             if(isAbundant(i)) {
                 abundantNums.add(i);
@@ -42,7 +40,6 @@ public class Main {
         }
 
         System.out.println(sum);
-        System.out.println("\n" + (System.currentTimeMillis() - start));
     }
 
     private static boolean isAbundant(int num) {
