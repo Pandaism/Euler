@@ -1,0 +1,7 @@
+A. Having a clue of how to start I settled for:
+1. d(n) = ∑(n/(a%n)) where a < n
+2. d(a) = b
+3. d(b) = a
+4. a != b
+5. If A.2, A.3, and A.4 are all true a and b are amicable pairs
+6. Need to find: ∑(amicable numbers < 1000)
