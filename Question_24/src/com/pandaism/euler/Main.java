@@ -17,7 +17,9 @@ public class Main {
             sb.append(digits.charAt(j));
             digits = remove(digits, j);
         }
-        System.out.printf("Answer: %s", sb);
+
+        sb.append(digits);
+        System.out.printf("Answer: %s", sb );
     }
 
     private static String remove(String string, int index) {
