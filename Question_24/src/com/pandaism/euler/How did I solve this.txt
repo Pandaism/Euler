@@ -1,0 +1,13 @@
+After many many of struggling and trying to figure out how to approach the problem.
+A. I knew:
+1. The amount to permutations in 'n' amount is 'n!'
+2. The amount of iterations required for each object in 'n' is 'n.length / n!'
+3. I have to readjust the limit based on the remaining from the position of where the beginning of each digit will in up
+    ex. 2 = 725760th position onward begin with 2; ((limit - 1) % 725760) will be the new limit need to find the second digit
+4. I need to loop until all the digits have been used up
+
+B. How I approached the problem:
+After countless amount of attempts of transcribing the amount into I needed:
+1. A way to easily remove singular value from a String
+2. I need a basic factorial method to find the amount of permutations
+3. Some place to store the new String
